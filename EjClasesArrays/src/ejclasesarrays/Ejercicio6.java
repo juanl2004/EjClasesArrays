@@ -1,6 +1,5 @@
 package ejclasesarrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ejercicio6 {
@@ -64,6 +63,7 @@ public class Ejercicio6 {
 			System.out.print("El valor " + valor + " se encuentra " + contador + " veces.");
 
 		}
+		
 		// Cierre de Scanner
 		sc.close();
 	}

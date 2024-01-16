@@ -16,10 +16,10 @@ public class Ejercicio5 {
 		int auxiliar;
 
 		// Creamos la primera tabla "tabla".
-		int tabla[] = new int[3];
+		int tabla[] = new int[8];
 		// Creamos la segunda tabla "tabla2", para copiar los valores de la primera
 		// tabla pero al reves.
-		int tabla2[] = new int[3];
+		int tabla2[] = new int[8];
 
 		// Creamos el Scanner para pedir unos números por teclado.
 		Scanner sc = new Scanner(System.in);
@@ -62,6 +62,8 @@ public class Ejercicio5 {
 		// Imprimimos la tabla 2 que es donde se ha copia los nuevos valores ordenados
 		// de mayor a menor.
 		System.out.println(Arrays.toString(tabla2));
+	
+		sc.close();
 	}
 
 }

@@ -14,7 +14,7 @@ public class Ejercicio3 {
 
 		Scanner sc = new Scanner(System.in);
 
-		for (int i = 0; 1 < 20; i++) {
+		for (int i = 0; i < 20; i++) {
 			System.out.println("Introduce un número");
 			numero = sc.nextInt();
 
