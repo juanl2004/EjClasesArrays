@@ -63,6 +63,7 @@ public class Ejercicio5 {
 		// de mayor a menor.
 		System.out.println(Arrays.toString(tabla2));
 	
+		//Cierre de Scanner
 		sc.close();
 	}
 
